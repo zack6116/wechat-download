@@ -53,6 +53,10 @@ npm run deploy
 
 本地开发：`npm run dev`（Token 放 `.dev.vars`：`API_TOKEN=xxx`）。
 
+### 自动部署
+
+push 到 `main` 会通过 GitHub Actions 自动部署（`.github/workflows/deploy.yml`）。首次使用需在仓库 Settings → Secrets → Actions 添加 `CLOUDFLARE_API_TOKEN`（Cloudflare 面板创建，模板选 "Edit Cloudflare Workers"）。本地快速迭代仍可手动 `npm run deploy`。
+
 ## 实测指标
 
 - 文章抓取 5.1MB / ~2s，无风控拦截（CF 数据中心 IP）
