@@ -5,7 +5,17 @@ export const LANDING_HTML = `<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>微信文章下载</title>
+<title>微信文章下载 - 公众号文章转 Markdown + 图片一键打包</title>
+<meta name="description" content="贴入微信公众号文章链接，自动解析正文与图片，一键下载 Markdown + 图片 zip 包。">
+<link rel="canonical" href="https://coderfather.com/wechatdl/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="微信文章下载">
+<meta property="og:title" content="微信文章下载 - 公众号文章转 Markdown + 图片一键打包">
+<meta property="og:description" content="贴入微信公众号文章链接，自动解析正文与图片，一键下载 Markdown + 图片 zip 包。">
+<meta property="og:url" content="https://coderfather.com/wechatdl/">
+<meta property="og:image" content="https://coderfather.com/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"微信文章下载","url":"https://coderfather.com/wechatdl/","applicationCategory":"UtilitiesApplication","operatingSystem":"Web","description":"贴入微信公众号文章链接，自动解析正文与图片，一键下载 Markdown + 图片 zip 包","offers":{"@type":"Offer","price":"0","priceCurrency":"CNY"},"isAccessibleForFree":true}</script>
 <style>
   :root { color-scheme: light dark; }
   [hidden] { display: none !important; }
